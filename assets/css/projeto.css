@@ -1,0 +1,72 @@
+.titulo {
+	display: flex;
+	justify-content: flex-start;
+	font-family: "Roboto Slab", serif;
+	padding-left: 5rem;
+}
+
+.logo {
+	height: 38px;
+	margin: 5px;
+}
+
+#topo {
+	display: flex;
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #293b45;
+	margin-block-start: 0.5em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.descricao {
+	font-family: "Roboto", sans-serif;
+}
+
+.descricao-categoria {
+	font-family: "Roboto", sans-serif;
+}
+
+li a {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a :last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Roboto Slab", serif;
+	background-color: #293b45;
+}
+
+li a:hover:not(.active) {
+	background-color: #486678;
+}
+
+.active {
+	background-color: #103246;
+}
+
+.geral {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-left: 5rem;
+}
+
+h2 {
+	font-size: 2rem;
+	font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,22 @@
+
+
+@media (max-width: 380px) {
+	.geral{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.item-categoria{
+		flex-direction: column;
+		padding-left: 0;
+	}
+
+	.texto{
+		padding: 0;
+	}
+
+	.titulo{
+		padding-top: 1.5rem;
+	}
+
+}
