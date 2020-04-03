@@ -260,7 +260,7 @@ h2 {
 
 }
 
-@media (min-width: 376px) {
+@media (min-width: 550px) {
 	.menu-icon {
 		display: none;
 	}
