@@ -174,7 +174,7 @@ h2 {
 	justify-content: space-between;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 552px) {
 	.qqq{
 		display: none;
 	}
